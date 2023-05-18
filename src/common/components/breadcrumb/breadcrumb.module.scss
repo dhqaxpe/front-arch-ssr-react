@@ -1,0 +1,23 @@
+.container {
+    @apply flex;
+}
+
+.list {
+    @apply inline-flex items-center space-x-1 md:space-x-3;
+}
+
+.list__item {
+    @apply inline-flex items-center align-baseline;
+}
+
+.list__item__label {
+    @apply inline-flex items-center text-sm font-medium text-grey-700 hover:text-grey-200 align-middle;
+}
+
+.list__item__label--current {
+    @apply text-grey-200 pointer-events-none;
+}
+
+.list__item__icon {
+    @apply pl-1 text-grey-700 align-middle pointer-events-none;
+}
